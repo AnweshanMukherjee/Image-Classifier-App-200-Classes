@@ -3,7 +3,7 @@ import streamlit as st
 import tensorflow as tf
 from PIL import Image, ImageOps
 
-model = tf.keras.models.load_model('model_ensembled.h5')
+model = tf.keras.models.load_model('model_ensembled_final.h5')
 
 
 def get_predictions(image_data, model):
